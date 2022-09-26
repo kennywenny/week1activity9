@@ -1,24 +1,30 @@
 .box {
-  /*Sets the height and width of the section */
   width: 200px;
-  height: 200px
+  height: 100px;
+  /* Font-family property specifies a list of fonts to be used in order of priority */
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.box-blue {
-  /* Sets font color */
+.section-blue {
+  /* Line-height property sets the distance between lines of text */
+  line-height: 100px;
+  color: #ffa500;
+  background-color: #0000FF;
+}
+  
+.container {
+  font-family: "Lucida Console", Monaco, monospace;
   color: white;
-  /* Sets background color */
-  background-color: #0000ff;
+  background-color: black;
 }
 
-.box-orange {
-  /* Uses hex codes to define color */
-  color: #0000ff;
-  background-color: #ffa500;
+#section-1 {
+  /* Font-size property sets the size of a font */
+  font-size: 26px;
+  color: #ffff00;
+  background-color: #800080;
 }
 
-#box-yellow {
-  /* Uses predefined colors to define color */
-  color: purple;
-  background-color: yellow;
-};
+#section-6 {
+  color: #ffff00;
+}
